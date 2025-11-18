@@ -24,7 +24,7 @@ any টাইপ দিয়ে TypeScript-কে বলা হয় যে এই �
 let data: any;
 data = 10;
 data = "Hello";
-data = true; // কোনো error নেই
+data = true;
 
 ---> unknown
 
@@ -35,7 +35,7 @@ value = 10;
 value = "Hello";
 
 if (typeof value === "string") {
-    console.log(value.toUpperCase()); // safe
+    console.log(value.toUpperCase());
 }
 
 console.log(value.toUpperCase()); 
